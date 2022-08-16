@@ -1,0 +1,50 @@
+.mb-32{
+    margin-bottom:  $spacer * 2,
+   }
+   
+h1{
+    font-size: 0;
+  }
+  .side-navbar{
+    max-width: 23%;
+    margin: 0 auto;
+    padding: $spacer * 2;
+  }
+  nav{
+    margin-bottom: 405px;
+  }
+  .nav{
+    &-list{
+      a{
+        line-height: 2;
+        padding: 11px 0;
+        color:$gray-900;
+        font-size: 14px;
+        &:hover{
+          color:$success;
+        }
+      }
+      span{
+        font-size: 24px;
+        margin-right: $spacer;
+      }
+    }
+  }
+  
+  .user{
+    img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: $spacer;
+    }
+    &_name{
+      color:$gray-900;
+      font-size: $font-size-base;
+    }
+    &_mail{
+      color: $gray-600;
+      font-size: $font-size-sm;
+      line-height: 24px;
+    }
+  }

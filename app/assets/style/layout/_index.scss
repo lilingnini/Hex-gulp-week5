@@ -1,151 +1,71 @@
-// 自定義
-*,*::before,*::after{
-  box-sizing: border-box;
-  // outline: 1px solid black;
-}
-body{
-  color:$dark;
-}
-a{
-  text-decoration: none;
-  color:$gray-900;
-  &:hover{
-    color:$success;
-  }
-}
-
-img{
-  vertical-align: middle;
-}
-span{
-  vertical-align: middle;
-}
-
-.material-symbols-outlined {
-  font-variation-settings: 'FILL' 1;
-}
-
-.mb-32{
-  margin-bottom:  $spacer * 2,
- }
-
 .container{
-  max-width: 77%;
-  margin: 0 auto;
-  padding: $spacer * 2;
-}
-h1{
-  font-size: 0;
-}
-.side-navbar{
-  max-width: 23%;
-  margin: 0 auto;
-  padding: $spacer * 2;
-}
-nav{
-  margin-bottom: 405px;
-}
-.nav{
-  &-list{
+    max-width: 77%;
+    margin: 0 auto;
+    padding: $spacer * 2;
+  }
+  
+    h2{
+      color:$dark;
+      font-size: $font-size-lg;
+      margin-right: $spacer * 4 ;
+    }
+    .menu-title-add{
+      span{
+        color:$success;
+        font-size: $font-size-lg;
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+    }
+    .menu-item{
+      span{
+        font-size: $font-size-lg;
+        &:hover{
+          color:$success;
+        }
+      }
+    }
+  
+  .table{
+    margin-bottom: 64px;
+    th,td{
+      padding: 17px 0 19px 0;
+    }
+    .table-title{
+      padding: 4px 0;
+    }
+    .arrow_downward{
+      color:$success;
+      font-size: 12px;
+    }
+    .material-symbols-outlined:hover{
+        color:$success;
+      }
+  
+  }
+  
+  .page{
+    text-align: center;
+    .page-button a{
+      display: block;
+      padding: 5.5px 4px;
+      &:hover{
+        color:white;
+      }
+    }
     a{
-      line-height: 2;
-      padding: 11px 0;
-      color:$gray-900;
-      font-size: 14px;
+      height: 100%;
+      display: block;
+      padding: 6px 11.5px 7px;
       &:hover{
-        color:$success;
+        color:white;
+        background-color: $green;
       }
     }
-    span{
-      font-size: 24px;
-      margin-right: $spacer;
-    }
+  
+  
   }
-}
-
-.user{
-  img{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: $spacer;
-  }
-  &_name{
-    color:$gray-900;
-    font-size: $font-size-base;
-  }
-  &_mail{
-    color: $gray-600;
-    font-size: $font-size-sm;
-    line-height: 24px;
-  }
-}
-
-
-// admin-page
-
-  h2{
-    color:$dark;
-    font-size: $font-size-lg;
-    margin-right: $spacer * 4 ;
-  }
-  .menu-title-add{
-    span{
-      color:$success;
-      font-size: $font-size-lg;
-      &:hover{
-        opacity: 0.5;
-      }
-    }
-  }
-  .menu-item{
-    span{
-      font-size: $font-size-lg;
-      &:hover{
-        color:$success;
-      }
-    }
-  }
-
-.table{
-  margin-bottom: 64px;
-  th,td{
-    padding: 17px 0 19px 0;
-  }
-  .table-title{
-    padding: 4px 0;
-  }
-  .arrow_downward{
-    color:$success;
-    font-size: 12px;
-  }
-  .material-symbols-outlined:hover{
-      color:$success;
-    }
-
-}
-
-.page{
-  text-align: center;
-  .page-button a{
-    display: block;
-    padding: 5.5px 4px;
-    &:hover{
-      color:white;
-    }
-  }
-  a{
-    height: 100%;
-    display: block;
-    padding: 6px 11.5px 7px;
-    &:hover{
-      color:white;
-      background-color: $green;
-    }
-  }
-
-
-}
 
 
 

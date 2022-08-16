@@ -1,0 +1,25 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    // outline: 1px solid black;
+  }
+  body{
+    color:$dark;
+  }
+  a{
+    text-decoration: none;
+    color:$gray-900;
+    &:hover{
+      color:$success;
+    }
+  }
+  
+  img{
+    vertical-align: middle;
+  }
+  span{
+    vertical-align: middle;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 1;
+  }
